@@ -19,7 +19,7 @@ To begin, I need prepare my data for further analysis on how Kevin Durant would 
     SG: Joe Harris
     SF: Kevin Durant
     PF: Blake Griffin
-    C: Nick Claxton
+    C: Nic Claxton
 
     In approaching this problem, its going to be really interesting to see how the usage of KD is going to impact the Knicks, Randle was definitely the go to guy in big moments and was an all star in 2021, 2023 and 2024 so with KD on the team, would Randle have been an all star? Will the Knicks benefit in the welcoming of a super star? Is a championship a possibility? Lets see.
 
