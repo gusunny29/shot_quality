@@ -69,7 +69,6 @@
 
 
     ** Production Workflow **
-
         - After practices, scrimmages, full euroleague games/seasons, the model should be runnable on the dataset and predict efficiently
             - This can go along with ensuring data pipelines as the ability to hit the api and feed new shots into the model should produce accurate predictions, at any time for whatever size of data
         - Handling larger datasets in parallel threads to avoid memory or performance issues and to handle the ingestion efficiently
