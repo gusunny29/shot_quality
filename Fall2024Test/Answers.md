@@ -20,6 +20,7 @@ For our play by play data I think the best features to include into our input sh
 In addition, the need to clean, train, predict and evaluate the model will tell us all we need to know which will explained further
 
 ** Cleaning **
+
 Highly essential in developing accurate results as invalid data can skew the results inaccurately
 
 - Since our data consists of all play by play data, we want to filter it to only include plays that involve a shot as moments like the tip off or a steal don't affect the outcome of a shot attempt
@@ -27,6 +28,7 @@ Highly essential in developing accurate results as invalid data can skew the res
 - Cleaning out outliers and rows with invalid/incomplete data
 
 ** Feature Engineering **
+
 In building and training our Euroleague model, the features we provide directly determine the accuracy our our results. Given the access we have to the play by play data from the 2021-2022 NBA season, here are some features that we can compose to train our model:
 
 Physical Features:
@@ -47,6 +49,7 @@ Contextual Features:
   - how many total minutes has the player been on the floor
 
 ** Model Selection **
+
 From reading this project, it seems there can be a few ways to derive accurate predictions but this would potentially be a way I would go about
 analyzing this study
 
@@ -92,6 +95,7 @@ In attempting to build a model for the Euroleague in predicting the success of s
 Building a database that should be delivering a single stream of box scores and play by play to API users from different sports sources definitely has its complexities to it.
 
 ** Database Design **
+
 The Database that would fit this structure the best would be a relational database, maybe in mySQL, Snowflake, PostgreSQL, as it supports complex joins for different aggregations of league specific data requests.
 
 - Using a NoSQL Database could work in this instance but with the relations and structure that can be expected with these tables, it only makes sense to use a relational database
@@ -135,6 +139,7 @@ Given that the intended result is a single stream of box scores and play by play
 - Validate choices of data as reliable and factual as the introduction of faulty data and untruthful data invalidates the data as a whole
 
 ** Data Integrity **
+
 To keep the data accurate and consistent throughout its history and future, data integrity practices should always be maintained:
 
 - The use of consistent foreign keys is essential to depict the relationship between tables so the direction of information is understood
@@ -184,6 +189,7 @@ When there are various streams of data processing, it is possible to discover th
   - Although this is not ideal for the accuracy ensured from our end, being transparent with the clients is imperative in creating trust and communication and this can be done by providing indications on when issues arise, when they are being looked into and when they are resolved which can be done through customized alerts
 
 ** Error resolution **
+
 With issues that arise, its always important to understand how to proceed with a proper resolution process to resolve conflicts
 
 - Automated Resolution
