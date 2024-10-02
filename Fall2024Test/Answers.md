@@ -36,7 +36,6 @@
         - Distance of shooter to the basket
         - Angle of shooter to the basket
         - Calculating the pentagonal area of the defensive positioning and their relation to the shot and understanding how that affects the shot attempt
-        Come back to this
 
         Contextual Features:
         - What quarter is it? How much time is left?
